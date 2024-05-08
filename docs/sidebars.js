@@ -19,9 +19,11 @@ module.exports = {
       "features/underglow",
       "features/backlight",
       "features/battery",
+      "features/soft-off",
       "features/beta-testing",
     ],
     Behaviors: [
+      "behaviors/index",
       "behaviors/key-press",
       "behaviors/layers",
       "behaviors/misc",
@@ -32,6 +34,7 @@ module.exports = {
       "behaviors/key-toggle",
       "behaviors/sticky-key",
       "behaviors/sticky-layer",
+      "behaviors/tri-state",
       "behaviors/tap-dance",
       "behaviors/caps-word",
       "behaviors/key-repeat",
@@ -43,6 +46,7 @@ module.exports = {
       "behaviors/underglow",
       "behaviors/backlight",
       "behaviors/power",
+      "behaviors/soft-off",
     ],
     Codes: [
       "codes/index",
